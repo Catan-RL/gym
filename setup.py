@@ -9,13 +9,13 @@ from version import VERSION
 
 # Environment-specific dependencies.
 extras = {
-    "atari": ["atari-py==0.2.6", "opencv-python>=3."],
+    "atari": ["atari-py==0.2.6", "opencv-python>=3.4.0"],
     "box2d": ["box2d-py~=2.3.5", "pyglet>=1.4.0"],
     "classic_control": ["pyglet>=1.4.0"],
     "mujoco": ["mujoco_py>=1.50, <2.0"],
     "robotics": ["mujoco_py>=1.50, <2.0"],
     "toy_text": ["scipy>=1.4.1"],
-    "other": ["lz4>=3.1.0", "opencv-python>=3."],
+    "other": ["lz4>=3.1.0", "opencv-python>=3.4.0"],
 }
 
 # Meta dependency groups.
